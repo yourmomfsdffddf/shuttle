@@ -4,7 +4,8 @@
   "description": "Experience the global internet using Shuttle, the swiftest and most uncluttered proxy solution. Relish a heightened level of privacy during your online sessions, free from censorship.",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "npx expo export -p web"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   "license": " GPL-3.0-or-later",
   "homepage": "https://shuttleproxy.com",
   "dependencies": {
+    "expo": "latest",
     "@nebula-services/dynamic": "^0.7.2-patch.2",
     "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
     "@tomphttp/bare-server-node": "^2.0.1",
