@@ -19,12 +19,13 @@
   "homepage": "https://shuttleproxy.com",
   "dependencies": {
     "expo": "latest",
+    "react-native-web": "latest",
+    "react-dom": "latest",
     "@nebula-services/dynamic": "^0.7.2-patch.2",
     "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
     "@tomphttp/bare-server-node": "^2.0.1",
     "ejs": "^3.1.9",
-    "express": "^4.18.1",
-    "yarn": "^1.22.22"
+    "express": "^4.18.1"
   },
   "engines": {
     "node": ">=18.0.0"
